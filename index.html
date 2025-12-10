@@ -5,6 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <style>
+        .profile-pic-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #222;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
         * {
             margin: 0;
             padding: 0;
@@ -77,7 +92,7 @@
 <body>
     <header>
         <h1>Abdelrahman — Portfolio</h1>
-        <p>Front-End Developer | Software Engineer | Dentist</p>
+        <p>CyberSecurity Specialist | Software Engineer | Dentist</p>
     </header>
 
     <nav>
@@ -87,6 +102,10 @@
     </nav>
 
     <section id="about" class="section">
+        <div class="profile-pic-wrapper">
+    <img src="your-image.jpg" alt="My Photo" class="profile-pic">
+</div>
+
         <h2>About Me</h2>
         <p class="about">
             Hi, I'm Abdelrahman — a front-end developer with experience in React,
